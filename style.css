@@ -40,3 +40,7 @@ body {
     border: none !important;
   }
  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+padding-right: 0 !important;
+padding-left: 0 !important;
+  }
