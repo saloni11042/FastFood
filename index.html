@@ -596,75 +596,129 @@
 
 <div class="contact container-fluid bg-dark mt-5">
 <div class="row mt-5 pt-5 ps-5">
-  <div class="col col-lg-6 bg-light">
+  <div class="col col-lg-6 col-12 bg-light h-75">
     <h5 class="pt-4 pb-4">Seamless Reservations for Unforgettable Dining Moments</h5>
-    <form class="row g-3 needs-validation bg-light" novalidate>
-      <div class="col-md-4">
-        <label for="validationCustom01" class="form-label">Your name</label>
-        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4">
-        <label for="validationCustom02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4">
-        <label for="validationCustomUsername" class="form-label">Username</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="inputGroupPrepend">@</span>
-          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-          <div class="invalid-feedback">
-            Please choose a username.
-          </div>
-        </div>
+    <form class="row g-3 pb-3">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="inputName">
       </div>
       <div class="col-md-6">
-        <label for="validationCustom03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationCustom03" required>
-        <div class="invalid-feedback">
-          Please provide a valid city.
-        </div>
+        <label for="inputEmail4" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
       </div>
-      <div class="col-md-3">
-        <label for="validationCustom04" class="form-label">State</label>
-        <select class="form-select" id="validationCustom04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
+      <div class="col-md-6">
+        <label for="inputPhone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="inputPhone">
+      </div>
+      <div class="col-md-6">
+        <label for="inputDate" class="form-label">Reservation Date</label>
+        <input type="date" class="form-control" id="inputDate">
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputTime" class="form-label">Reservation Time</label>
+        <input type="time" class="form-control" id="inputTime">
+      </div>
+      <div class="col-md-6">
+        <label for="inputDate" class="form-label">Person</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
         </select>
-        <div class="invalid-feedback">
-          Please select a valid state.
-        </div>
       </div>
-      <div class="col-md-3">
-        <label for="validationCustom05" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="validationCustom05" required>
-        <div class="invalid-feedback">
-          Please provide a valid zip.
-        </div>
-      </div>
+    
       <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-          <label class="form-check-label" for="invalidCheck">
-            Agree to terms and conditions
-          </label>
-          <div class="invalid-feedback">
-            You must agree before submitting.
-          </div>
-        </div>
+        <label for="inputAddress" class="form-label">Notes</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
       </div>
+      
       <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
+        <button type="submit" class="btn btn-warning">Request Reservation</button>
       </div>
     </form>
   </div>
-  <div class="col col-lg-6"></div>
+  <div class="col col-lg-6 col-12">
+    <h5 class="text-warning">Reserve your table</h5>
+    <h3 class="text-white">Elevate Your Dining Experience with a Reserved Table at FastFood TNC</h3>
+    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    <img src="./images/form-img.png" alt="" class="w-75">
+  </div>
+  
 </div>
+</div>
+
+<div class="why container mt-5">
+  <div class="row">
+    <div class="col d-flex justify-content-center align-items-center flex-column">
+      <h2>Why Choose Fastfood TNC?</h2>
+      <p>Unmatched Flavors, Quality, and Community Connection.</p>
+    </div>
+  </div>
+  <!-- <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Icon grid</h2> -->
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center flex-column ">
+        <img src="./images/feature1.png" alt="" class="bi text-body-secondary flex-shrink-0 me-3 w-25">
+        <div>
+          <p class="fw-bold mb-0 fs-6 text-body-emphasis text-center">Unmatched Flavor Fusion</p>
+          <p class="text-center">Masterpieces of taste, from burgers to wraps, expertly crafted.</p>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
 </div>
 
 
